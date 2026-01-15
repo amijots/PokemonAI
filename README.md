@@ -82,7 +82,13 @@ python helper/create_db.py
 ```
 *Creates `./pokedex_db` directory.*
 
-### Step 4: Talk to the Professor
+### Step 4: Launch Ollama server
+Launch the Ollama server, providing an API for running and interacting with the LLM on port 11434.
+```bash
+ollama serve
+```
+
+### Step 5: Talk to the Professor
 Launch the interactive chat loop.
 ```bash
 python src/chat.py
