@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Bulbasaur",
+        "id": 1,
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "stats": {
+            "hp": 45,
+            "attack": 49,
+            "defense": 49,
+            "special-attack": 65,
+            "special-defense": 65,
+            "speed": 45
+        },
+        "description": "A strange seed was planted on its back at birth. The plant sprouts and grows with this POK\u00e9MON.",
+        "evolution_info": "bulbasaur evolves into ivysaur via level 16. ivysaur evolves into venusaur via level 32",
+        "search_content": "Name: Bulbasaur. Types: grass, poison. Stats: hp 45, attack 49, defense 49, special-attack 65, special-defense 65, speed 45. Description: A strange seed was planted on its back at birth. The plant sprouts and grows with this POK\u00e9MON. Evolution: bulbasaur evolves into ivysaur via level 16. ivysaur evolves into venusaur via level 32"
+    }
+]

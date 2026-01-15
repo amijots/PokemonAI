@@ -5,7 +5,7 @@ import os
 
 # CONFIGURATION
 # Set to None to download ALL pokemon (1000+), or an integer (e.g., 151) for Gen 1.
-POKEMON_LIMIT = 3 
+POKEMON_LIMIT = 1 
 OUTPUT_FILE = "pokedex.json"
 
 def fetch_json(url):
@@ -103,9 +103,9 @@ def main():
             "description": description,
             "evolution_info": evolution_text,
             # Create a "blob" of text for the Vector DB to index later
-            "search_content": f"Name: {name.capitalize()}. Types: {', '.join([t['type']['name'] for t in p_data['types']])}. Stats: HP {p_data['stats'][0]['base_stat']}, Attack {p_data['stats'][1]['base_stat']}. Description: {description} Evolution: {evolution_text}"
+            "search_content": f"Name: {name.capitalize()}. Types: {', '.join([t['type']['name'] for t in p_data['types']])}. Stats: {", ".join([f'{s['stat']['name']} {s['base_stat']}' for s in p_data['stats']])}. Description: {description} Evolution: {evolution_text}"
         }
-        
+
         final_pokedex.append(entry)
         
         # Be nice to the API
