@@ -3,7 +3,7 @@
 
 **A completely local, privacy-focused RAG (Retrieval-Augmented Generation) Chatbot that answers questions about Pokémon lore, stats, and moves using Llama 3 and ChromaDB.**
 
-> *Run your own Professor Oak on your PC. No API keys, no subscriptions, no internet required after setup.*
+> *Run your own Professor on your PC. No API keys, no subscriptions, no internet required after setup.*
 
 ---
 
@@ -117,12 +117,12 @@ The system handles different types of questions using different logic:
 │   └── chat.py                 # Main application (The Agent)
 ├── .gitignore                  # Files to exclude from version control
 └── README.md
-
+```
 ---
 
-## ⚠️ Comments
+## ⚠️ Comments 
 
-*   This is a work in progress, the LLM tends to hallucinate answers for some questions (I think a bigger model can improve that issue) and it sometimes fails to answer a question. Lots of work needs to be done to make it better :)
+* **This is a work in progress, the LLM tends to hallucinate answers for some questions (I think a bigger model can improve that issue) and it sometimes fails to answer a question. Lots of work needs to be done to make it better :)**
 
 ---
 
