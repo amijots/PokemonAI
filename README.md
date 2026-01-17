@@ -132,6 +132,23 @@ The system handles different types of questions using different logic:
 
 ---
 
+## 📷 Images
+**The LLM successfully answers a user's question based on description**
+
+![LLM successfully answers a user's description question](./images/description.png)
+---
+**The LLM successfully answers a user's question of a Pokemon's level**
+
+![LLM successfully answers a user's level question](./images/level.png)
+---
+**The LLM successfully answers a user's question if a Pokemon can learn a certain move**
+
+![LLM successfully answers a user's move question](./images/move.png)
+---
+**The LLM gets the correct typing of the Pokemon but identifies Pokemon that don't meet the stat requirement**
+
+![LLM gets the correct typing of Pokemon but incorrect stats](./images/typingandstat.png)
+---
 ## 📜 License
 This project uses data from [PokeAPI](https://pokeapi.co/), which is licensed under BSD-3-Clause.
 ```
