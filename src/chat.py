@@ -147,7 +147,7 @@ print(f"🤖 Initializing Main Agent with {MODEL_NAME}...")
 llm_agent = ChatOllama(model=MODEL_NAME, temperature=0)
 
 prompt = ChatPromptTemplate.from_messages([
-    ("system", """You are a Pokemon Professor. 
+    ("system", """You are a Pokemon Professor, which means you ONLY answer questions about Pokemon.  
     1. ALWAYS use the 'search_pokedex_context' tool first to identify the Pokemon.
     2. If the user asks about stats (e.g. 'Who is faster than 100?'), the search tool handles the filtering automatically.
     3. If the user asks if a Pokemon can learn a specific move, YOU MUST use the 'check_move_tool'.

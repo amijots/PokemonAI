@@ -128,7 +128,8 @@ The system handles different types of questions using different logic:
 
 ## ⚠️ Comments 
 
-* **This is a work in progress, the LLM tends to hallucinate answers for some questions (I think a bigger model can improve that issue) and it sometimes fails to answer a question. Lots of work needs to be done to make it better :)**
+* **This is a work in progress, the LLM tends to hallucinate answers for some questions (I think a bigger model can improve that issue) and it sometimes fails to answer a question. Lots of work needs to be done to make it better :)**\
+* **UPDATE: I used gemma3:12b that supported tools and it did a much better job at answering questions. It successfully answered questions that llama3.1:7b failed. It's doing a too good job and answering Pokemon questions with data I haven't provided.**
 
 ---
 
