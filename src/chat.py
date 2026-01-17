@@ -1,5 +1,4 @@
 import json
-import os
 from langchain_chroma import Chroma
 from langchain_ollama import ChatOllama, OllamaEmbeddings
 from langchain_classic.agents import create_tool_calling_agent, AgentExecutor

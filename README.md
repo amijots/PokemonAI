@@ -45,7 +45,7 @@ cd PokemonAI
 
 ### 2. Install Dependencies
 ```bash
-pip install requests langchain langchain-community langchain-chroma langchain-ollama lark
+pip install requests langchain langchain-chroma langchain-classic langchain-ollama lark
 ```
 
 ### 3. Pull Local Models
